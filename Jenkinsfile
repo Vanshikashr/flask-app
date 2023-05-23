@@ -1,2 +1,20 @@
+// @Library('git-shared-lib') _
+// DockerEcsDeploy()
 @Library('git-shared-lib') _
-DockerEcsDeploy()
+
+pipeline {
+    agent any
+    stages {
+        stage('Deploy') {
+            steps {
+                DockerEcsDeploy()
+            }
+        }
+    }
+
+    post {
+        always {
+                emailNotification()
+        }
+    }
+}
