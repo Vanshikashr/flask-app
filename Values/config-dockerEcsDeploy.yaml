@@ -1,0 +1,2 @@
+appName: my-repo
+dockerFilePath: docker/Dockerfile
