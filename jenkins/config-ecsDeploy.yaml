@@ -1,2 +1,4 @@
 dockerFilePath: Dockerfile
 appName: my-app
+serviceName: jen-svc
+taskDefinition: jen-taskdef
