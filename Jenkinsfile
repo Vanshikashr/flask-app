@@ -1,7 +1,7 @@
 @Library('git-shared-lib') _
 DockerEcsDeploy([ 
  main: [
-     containerRegistoryUrl: '919678485989.dkr.ecr.us-east-1.amazonaws.com',
+     containerRegistoryUrl: '919678485989.dkr.ecr.ap-south-1.amazonaws.com',
      clusterName: 'jen-cluster',
      notification: [
       [
