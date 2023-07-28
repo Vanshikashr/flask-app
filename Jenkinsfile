@@ -1,6 +1,6 @@
 @Library('git-shared-lib') _
 kubeDeployPipeline([
-  test: [
+  kube: [
     containerRegistoryUrl: '919678485989.dkr.ecr.ap-south-1.amazonaws.com',
     yamlFilePath: 'manifest/deployment.yaml',
     gitSecret: 'token',
