@@ -5,8 +5,8 @@ kubeDeployPipeline([
     yamlFilePath: 'manifest/deployment.yaml',
     gitSecret: 'token',
     gitsecret1: 'repo-clone-1',
-    gitRepoUrl: git@github.com:AkshatTTN/flask-app.git
-    gitBranch: main
+    gitRepoUrl: 'git@github.com:AkshatTTN/flask-app.git',
+    gitBranch: 'kube'
     notification: [
       [
         type: 'slack',
