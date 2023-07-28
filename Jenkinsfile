@@ -4,7 +4,7 @@ kubeDeployArgoPipeline([
     containerRegistoryUrl: '919678485989.dkr.ecr.ap-south-1.amazonaws.com',
     helmRepoLink: 'git@github.com:sanchi789/deveops.git',
     valuesFilePath: 'apps/values.yaml',
-    gitSecret: 'repo-clone-1',
+    gitSecret: 'token',
     helmBranchName: 'main',
     notification: [
       [
