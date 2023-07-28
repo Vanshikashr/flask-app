@@ -2,11 +2,11 @@
 kubeDeployArgoPipeline([
   test: [
     containerRegistoryUrl: '919678485989.dkr.ecr.ap-south-1.amazonaws.com',
-    helmRepoLink: 'https://github.com/sanchi789/deveops.git',
-    valuesFilePath: 'apps/values.yaml',
+    yamlFilePath: 'manifest/deployment.yaml',
     gitSecret: 'token',
     gitsecret1: 'repo-clone-1',
-    helmBranchName: 'main',
+    gitRepoUrl: git@github.com:Vanshikashr/flask-app.git
+    gitBranch: main
     notification: [
       [
         type: 'slack',
