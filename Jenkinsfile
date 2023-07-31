@@ -4,7 +4,7 @@ kubeDeployPipeline([
     containerRegistoryUrl: '919678485989.dkr.ecr.ap-south-1.amazonaws.com',
     yamlFilePath: 'manifest/deployment.yaml',
     gitSecret: 'token',
-    gitsecret1: 'repo-clone-1',
+    gitSecret1: 'repo-clone-1',
     gitRepoUrl: 'git@github.com:AkshatTTN/flask-app.git',
     manifestBranchName: 'kube',
     notification: [
