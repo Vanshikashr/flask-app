@@ -6,7 +6,7 @@ kubeDeployArgoPipeline([
     valuesFilePath: 'apps/values.yaml',
     gitSecret: 'token',
     gitsecret1: 'repo-clone-1',
-    helmBranchName: 'main',
+    helmBranchName: 'test',
     notification: [
       [
         type: 'slack',
