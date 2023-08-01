@@ -1,2 +1,4 @@
 dockerFilePath: Dockerfile
 appName: react-img
+nameSpace: default
+deployName: nginx-deployment-v2
