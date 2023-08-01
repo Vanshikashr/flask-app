@@ -8,7 +8,7 @@ kubeDeployArgoPipeline([
         gitSecret: 'token',
         gitsecret1: 'repo-clone-1',
         helmBranchName: 'main',
-        scriptToRun:  '''nodejs(nodeJSInstallationName: 'Node.js 14') {
+        scriptToRun: '''nodejs(nodeJSInstallationName: 'Node.js 14') {
             sh \"\"\"
             npm config ls
             npm install --silent
