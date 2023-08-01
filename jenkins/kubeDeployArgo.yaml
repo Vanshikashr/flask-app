@@ -1,8 +1,8 @@
 dockerFilePath: docker/Dockerfile
 appName: react-img
 scriptToRun: |
-  sh '''
+  sh """
     ls
     pwd
     echo "start building docker image"
-  '''
+  """
