@@ -16,7 +16,7 @@ kubeDeployArgoPipeline([
             pwd
             echo "start building docker image"
             \"\"\"
-        }'''
+        }''',
         notification: [
             [
                 type: 'slack',
