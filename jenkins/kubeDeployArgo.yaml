@@ -1,8 +1,12 @@
 dockerFilePath: docker/Dockerfile
 appName: react-img
 scriptToRun: |
+nodejs(nodeJSInstallationName: 'Node.js 14') {
   sh """
-    RUN ls
-    RUN pwd
-    RUN echo "start building docker image"
+  npm config ls
+  npm install --silent
+  ls
+  pwd
+  echo \"start building docker image\"
   """
+    }
