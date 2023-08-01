@@ -1,6 +1,7 @@
 dockerFilePath: docker/Dockerfile
 appName: react-img
 scriptToRun: |
+  chmod a+x
   sh """
     ls
     pwd
