@@ -8,9 +8,9 @@ kubeDeployArgoPipeline([
         gitSecret: 'token',
         gitsecret1: 'repo-clone-1',
         helmBranchName: 'main',
-        scriptToRun: '''
+        scriptToRun: |
            echo hello....
-           ls ''',
+           ls
         notification: [
             [
                 type: 'slack',
