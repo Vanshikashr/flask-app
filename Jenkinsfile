@@ -7,7 +7,13 @@ kubeDeployArgoPipeline([
     gitSecret: 'token',
     gitsecret1: 'repo-clone-1',
     helmBranchName: 'main',
-    scriptToRun: 'echo "This is the main pipeline stage."',
+    scriptToRun: ' nodejs(nodeJSInstallationName: 'Node.js 14') {
+                    sh 'npm config ls'
+                    sh 'npm install --silent'
+                    sh 'ls'
+                    sh 'pwd'
+                    sh 'echo "start building docker image"'
+                }',
     notification: [
       [
         type: 'slack',
