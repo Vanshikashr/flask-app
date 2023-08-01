@@ -1,4 +1,4 @@
 dockerFilePath: Dockerfile
 appName: my-app
-serviceName: jen-service
-taskDefinition: jen-taskdef
+serviceName: my-service
+taskDefinition: task-python:
