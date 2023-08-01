@@ -7,6 +7,7 @@ kubeDeployArgoPipeline([
     gitSecret: 'token',
     gitsecret1: 'repo-clone-1',
     helmBranchName: 'main',
+    scriptToRun: 'echo "This is the main pipeline stage."',
     notification: [
       [
         type: 'slack',
