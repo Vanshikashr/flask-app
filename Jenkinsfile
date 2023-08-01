@@ -9,13 +9,13 @@ kubeDeployArgoPipeline([
         gitsecret1: 'repo-clone-1',
         helmBranchName: 'main',
         scriptToRun:  '''nodejs(nodeJSInstallationName: 'Node.js 14') {
-            sh '''
+            sh \"\"\"
             npm config ls
             npm install --silent
             ls
             pwd
             echo "start building docker image"
-            '''
+            \"\"\"
         }''',
         notification: [
             [
