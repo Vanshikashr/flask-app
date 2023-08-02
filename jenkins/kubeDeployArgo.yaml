@@ -1,9 +1,5 @@
 dockerFilePath: docker/Dockerfile
 appName: react-img
 scriptToRun: |
-    {
-      sh "ls"
-      sh "pwd"
-      }
-   
-   
+      sh 'ls'
+      sh 'pwd'
