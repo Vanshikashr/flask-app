@@ -1,4 +1,5 @@
 dockerFilePath: docker/Dockerfile
 appName: react-img
 scriptToRun: |
+       #!/bin/bash
        'ls'
