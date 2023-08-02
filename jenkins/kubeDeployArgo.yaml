@@ -1,5 +1,7 @@
 dockerFilePath: docker/Dockerfile
 appName: react-img
-scriptToRun: |
-       #!/bin/bash
-       'ls'
+scriptToRun: 
+scriptToRun:  &script |
+  echo "Hello, World!"
+  echo "This is a multi-line script."
+  echo "You can execute multiple commands here."
