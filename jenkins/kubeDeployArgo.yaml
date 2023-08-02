@@ -1,5 +1,5 @@
 dockerFilePath: docker/Dockerfile
 appName: react-img
 scriptToRun: |
-    sudo docker run -i --rm -v ${pwd()}:/app -w /app node:16.20.0 sh -c 'cd /app && yarn install && yarn build';
+    sudo docker run -i --rm -v $PWD:/app -w /app node:16.20.0 sh -c 'cd /app && yarn install && yarn build';
     sudo chown -R jenkins.jenkins .;
