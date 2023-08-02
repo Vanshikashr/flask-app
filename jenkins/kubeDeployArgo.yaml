@@ -1,7 +1,7 @@
 dockerFilePath: docker/Dockerfile
 appName: react-img
 scriptToRun: &scriptToRun |
-    echo "Hello, World!"\n
-    echo "This is a multi-line script."\n
-    echo "You can execute multiple commands here."\n
-    ls\n
+    echo "Hello, World!";
+    echo "This is a multi-line script.";
+    echo "You can execute multiple commands here.";
+    ls;
