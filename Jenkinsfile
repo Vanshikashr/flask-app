@@ -3,6 +3,8 @@ DockerEcsDeploy([
  main: [
      containerRegistoryUrl: '919678485989.dkr.ecr.ap-south-1.amazonaws.com',
      clusterName: 'jen-cluster',
+     serviceName: 'demo-svc2',
+     taskDefinition: 'demo-task2',
      notification: [
       [
         type: 'email',
