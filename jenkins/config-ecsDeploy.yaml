@@ -1,4 +1,2 @@
 dockerFilePath: Dockerfile
 appName: my-app
-serviceName: demo-svc3
-taskDefinition: demo-task3
