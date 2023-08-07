@@ -1,7 +1,7 @@
 @Library('git-shared-lib') _
 DockerEcsDeploy([ 
   appName: 'new-app',
-  dockerFilePath: 'docker/Dockerfile',
+  dockerFilePath: 'Dockerfile',
   main: [
     containerRegistoryUrl: '919678485989.dkr.ecr.ap-south-1.amazonaws.com',
     clusterName: 'jen-cluster',
