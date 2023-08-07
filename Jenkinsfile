@@ -11,7 +11,7 @@ kubeDeployArgoPipeline([
     helmRepoLink: 'git@github.com:sanchi789/deveops.git',
     valuesFilePath: 'apps/values.yaml',
     gitSecret: 'token',
-    gitSecret1: 'repo-clone-1',
+    gitSecret1: 'repo-clone-ssh',
     helmBranchName: 'main',
     notification: [
       [
