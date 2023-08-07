@@ -2,14 +2,9 @@
 DockerEcsDeploy([
   appName: 'new-app',
   dockerFilePath: 'Dockerfile',
-  scriptToRun:  '''
-    {
-      sh \"\"\"
-        ls
-        pwd
-      \"\"\"
-    }
-  ''',
+  scriptToRun: |
+      whoami;
+  ,
   main: [
     containerRegistoryUrl: '919678485989.dkr.ecr.ap-south-1.amazonaws.com',
     clusterName: 'jen-cluster',
