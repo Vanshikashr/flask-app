@@ -2,11 +2,11 @@
 kubeDeployPipeline([
 ecrRepoName: 'main-app',
 dockerFilePath: 'Dockerfile',
-scriptToRun: '''
+kube: [
+  scriptToRun: '''
   whoami
   ls -la
   ''',
-kube: [
   containerRegistoryUrl: '919678485989.dkr.ecr.ap-south-1.amazonaws.com',
   yamlFilePath: 'manifest/deployment.yaml',
   gitSecret: 'token',
