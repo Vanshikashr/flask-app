@@ -6,7 +6,7 @@ DockerEcsDeploy([
     scriptToRun: '''
       whoami
       ls -la
-      ''',
+    ''',
     containerRegistoryUrl: '919678485989.dkr.ecr.ap-south-1.amazonaws.com',
     clusterName: 'jen-cluster',
     serviceName: 'demo-svc2',
