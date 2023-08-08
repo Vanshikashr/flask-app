@@ -2,11 +2,11 @@
 kubeDeployArgoPipeline([
   ecrRepoName: 'my-app',
   dockerFilePath: 'docker/Dockerfile',
-  scriptToRun: '''
-    whoami
-    ls -la
-   ''',
   test: [
+    scriptToRun: '''
+      whoami
+      ls -la
+      ''',
     containerRegistoryUrl: '919678485989.dkr.ecr.us-east-1.amazonaws.com',
     helmRepoLink: 'git@github.com:sanchi789/deveops.git',
     valuesFilePath: 'apps/values.yaml',
