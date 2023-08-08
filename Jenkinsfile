@@ -1,12 +1,12 @@
 @Library('git-shared-lib') _
 DockerEcsDeploy([
-  appName: 'new-app',
+  ecrRepoName: 'my-app',
   dockerFilePath: 'Dockerfile',
-  scriptToRun: '''
-    whoami
-    ls -la
-    ''',
   main: [
+    scriptToRun: '''
+      whoami
+      ls -la
+      ''',
     containerRegistoryUrl: '919678485989.dkr.ecr.ap-south-1.amazonaws.com',
     clusterName: 'jen-cluster',
     serviceName: 'demo-svc2',
