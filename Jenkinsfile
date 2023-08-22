@@ -7,7 +7,7 @@ kube: [
   whoami
   ls -la
   ''',
-  containerRegistoryUrl: '919678485989.dkr.ecr.ap-south-1.amazonaws.com',
+  containerRegistoryUrl: '336001321777.dkr.ecr.ap-south-1.amazonaws.com',
   yamlFilePath: 'manifest/deployment.yaml',
   gitSecret: 'token',
   gitSecret1: 'repo-clone-1',
@@ -30,4 +30,4 @@ kube: [
   ]
 ]
 ])
-// kubeDeployArgoPipeline()
+
