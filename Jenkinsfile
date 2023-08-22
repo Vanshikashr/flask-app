@@ -9,8 +9,8 @@ kube: [
   ''',
   containerRegistoryUrl: '336001321777.dkr.ecr.ap-south-1.amazonaws.com',
   yamlFilePath: 'manifest/deployment.yaml',
-  gitSecret: 'token',
-  gitSecret1: 'repo-clone-1',
+  gitSecret: 'for_http',
+  gitSecret1: 'for_ssh',
   gitRepoUrl: 'https://github.com/Vanshikashr/flask-app.git',
   manifestBranchName: 'kube',
   notification: [
