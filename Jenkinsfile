@@ -24,8 +24,8 @@ kube: [
     ],
     [
       type: 'email',
-      fromAddress: 'sanchi.sharma1@tothenew.com',
-      toAddress: 'akshat.mittal@tothenew.com'
+      fromAddress: 'vanshika.shrivastava@tothenew.com',
+      toAddress: 'aditya.sinha@tothenew.com'
     ]
   ]
 ]
